@@ -1,0 +1,41 @@
+/* class Main {
+  public static void main(String[] args) {
+   System.out.println("Hello world!");
+String word1 = "Hello";
+String tempString1 = "he";
+String tempString2 = "ll";
+String tempString3 = "o";
+
+String finalWord = tempString1 + tempString2 + tempString3;
+
+System.out.print (finalWord); */
+
+//There are two ways of concatenating strings in Java
+/* Type 1 is by + concatanation operator
+Type 2: By concat() method
+
+By + method: 
+  Java string concatanaion operator +
+
+*/
+class Main {
+  public static void main(String args[]){
+      String s = "Birth" + "day";
+      System.out.println(s);
+      String x = (new StringBuilder()).append("Birth").append("day").toString();
+
+      //String concat() method concatanates the specified string to the end of the current string. Here is the syntax
+      public String concat (String another);
+      //Example
+      class testStringConcat{
+        public void main(String args[]){
+          String s1 = "pinker";
+          String s2 = "ton";
+          String s3 = s1; concat (s2);
+          System.out.println(s3);
+
+        }
+      }
+  }
+}
+}
